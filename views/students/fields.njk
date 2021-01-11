@@ -1,0 +1,29 @@
+<div class="item">
+    <div>Avatar URL</div>
+    <div>
+        <input type="url" name="avatar_url" placeholder="http://" value="{{ student.avatar_url }}">
+    </div>
+</div>
+<div class="item">
+    <div>Nome</div>
+    <div>
+        <input type="text" name="name" placeholder="Nome" value="{{ student.name }}">
+    </div>
+</div>
+<div class="item">
+    <div>Data Nascimento</div>
+    <input type="date" name="birth" value="{{student.birth}}">
+</div>
+<div class="item">
+    <div>E-mail</div>
+    <input type="email" name="email" value="{{student.email}}">
+</div>
+<div class="item">
+    <div>Ano Escolar</div>
+    <input type="text" name="schoolyear" value="{{student.schoolyear}}">
+</div>
+<div class="item">
+    <div>Carga Horaria</div>
+    <input type="number" name="hours" value="{{student.hours}}">
+</div>
+<button type="submit">Salvar</button>

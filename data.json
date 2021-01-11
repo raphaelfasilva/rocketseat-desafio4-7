@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "avatar_url": "https://source.unsplash.com/collection/8325171/500x500",
+      "name": "Raphael Silva",
+      "birth": 518313600000,
+      "email": "raphaelfasilva@gmail.com",
+      "schoolyear": "3 ano do colegial",
+      "hours": "10"
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://source.unsplash.com/collection/8325170/500x500",
+      "name": "Fulano de tal",
+      "birth": 946684800000,
+      "email": "fulano@tal.com.br",
+      "schoolyear": "1 ano do colegial",
+      "hours": "5"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "https://source.unsplash.com/collection/8325170/500x500",
+      "name": "Raphael Silva",
+      "birth": 518313600000,
+      "degree": "Ensino Superior Completo",
+      "areas": "TI",
+      "typeofclass": "Presencial",
+      "created_at": 1610129318710
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://source.unsplash.com/collection/8325171/500x500",
+      "name": "Fulano de tal",
+      "birth": 978307200000,
+      "degree": "Mestrado",
+      "areas": "cxcxxcxcxccxxc,sdsdsdsd",
+      "typeofclass": "Presencial",
+      "created_at": 1610129355543
+    }
+  ]
+}

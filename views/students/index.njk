@@ -1,0 +1,35 @@
+{% extends "layout.njk" %}
+{% block header %}
+    <title>Estudantes</title>
+{% endblock %}
+{% block content %}
+    <div class="card table-container">
+        <p class="titulo-listagem">Estudantes</p>
+        <a class="botao-novo" href="/students/create">Novo</a>
+        <table width="100%">
+            <thead>
+                <tr>
+                    <th>Nome completo</th>
+                    <th>Email</th>
+                    <th>Ano escolar</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for student in students %}
+                    <tr>
+                        <td>
+                            <span style="background-image: url({{student.avatar_url}})"></span>
+                            {{student.name}}
+                        </td>
+                        <td>{{student.email}}</td>
+                        <td>{{student.schoolyear}}</td>
+                        <td>
+                            <a href="/students/{{student.id}}">Editar</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+
+        </table>
+    </div>
+{% endblock %}
